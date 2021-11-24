@@ -1,0 +1,8 @@
+<h2>Add word</h2>
+
+<input type="text" (input)="inputWord($event)" [value]="word" />
+
+<button (click)="reverseWord()">Reverse text</button>
+<child-comp [result]="result"></child-comp>
+
+<h2>[[result]]</h2>
