@@ -1,0 +1,11 @@
+<h2>5) Add equation</h2>
+
+<input type="text" (input)="inputX($event)" [value]="x" />
+<span>X2+</span>
+<input type="text" (input)="inputY($event)" [value]="y" />
+<span>X+</span>
+<input type="text" (input)="inputC($event)" [value]="c" />
+
+<button (click)="calculation()">Calculation</button>
+
+<h2>{{ result }}</h2>

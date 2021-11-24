@@ -1,0 +1,9 @@
+<h2>8) Add numbers</h2>
+<span>Add first number</span>
+<input type="text" (input)="inputFirst($event)" [value]="first" />
+<span>Add second number</span>
+<input type="text" (input)="inputSecond($event)" [value]="second" />
+
+<button (click)="calculation()">Calculation</button>
+
+<h2>{{ arefmetical }} {{ geometric }}</h2>
