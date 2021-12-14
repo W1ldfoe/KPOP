@@ -1,0 +1,22 @@
+table {
+  width: 100%;
+}
+
+th.mat-header-cell {
+  text-align: center;
+}
+
+tr:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+td.mat-cell {
+  text-align: center;
+  cursor: pointer;
+}
+
+.table-actions {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}

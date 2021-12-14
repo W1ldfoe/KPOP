@@ -1,0 +1,10 @@
+{
+  "defaultProject": "lab5",
+  "projects": {
+    "lab5": {
+      "name": "lab5",
+      "integrations": {},
+      "type": "angular"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+<div class="container">
+  <div class="close-dialog-button">
+    <button mat-icon-button (click)="closeDialog()">
+      <mat-icon>close</mat-icon>
+    </button>
+  </div>
+  <div class="info">
+    <table>
+      <thead>
+        <tr>
+          <th>First Name</th>
+          <th>Last name</th>
+          <th>Age</th>
+          <th>Phone</th>
+          <th>Gender</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>{{ data.name.first }}</td>
+          <td>{{ data.name.last }}</td>
+          <td>{{ data.dob.age }}</td>
+          <td>{{ data.phone }}</td>
+          <td>{{ data.gender }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
